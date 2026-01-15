@@ -2,17 +2,17 @@ Stock Transaction Predictor (CSIS505 Assessment)
 🏢 Osiri University, Nebraska, USA
 Course: Cloud Computing (CSIS505)
 
-Project: Comparative Analysis of 18 ML Models for Stock Forecasting
+Project: Comparative Analysis of 23 ML Models for Stock Forecasting
 
-Author: GREAT EZEKIEL
+Author: Adejare Ezekiel Sanyaolu
 
 Submission Date: January 15, 2026
 
 📌 Project Overview
-This project presents a comprehensive machine learning pipeline to predict stock transaction types (BUY vs. SELL) using historical Yahoo Finance data. It evaluates 18 distinct algorithms to identify the most robust model for financial time-series classification, culminating in a cloud-deployed web application.
+This project presents a comprehensive machine learning pipeline to predict stock transaction types (BUY vs. SELL) using historical Yahoo Finance data. It evaluates 23 distinct algorithms to identify the most robust model for financial time-series classification, culminating in a cloud-deployed web application.
 
 🚀 Live Application
-Access the live cloud app here: 👉 [Insert Your Streamlit URL Link Here]
+Access the live cloud app here: 👉 https://cloudcomputingosiri-jddmpbbhcmmqtldvzf4tnr.streamlit.app/
 
 🛠️ Technical Architecture
 1. Data Source & Preprocessing
@@ -22,9 +22,9 @@ Features used: amount, reportedPrice, usdValue.
 
 Handling Imbalance: Applied SMOTE (Synthetic Minority Over-sampling Technique) to balance the BUY/SELL classes, ensuring the model doesn't favor the majority class.
 
-Scaling: Utilized StandardScaler to normalize feature distributions.
+Scaling: Utilised StandardScaler to normalise feature distributions.
 
-2. Algorithmic Rigor
+2. Algorithmic Rigour
 The research compared 18 models across multiple categories:
 
 Linear: Logistic Regression, Ridge, Lasso.
@@ -57,27 +57,23 @@ Plaintext
 ├── yahooStock.csv        # Dataset (if permitted)
 └── README.md             # Project Documentation
 ⚙️ Local Installation & Usage
+
 Clone the repository:
 
 Bash
 
 git clone https://github.com/[Your-Username]/[Your-Repo-Name].git
 cd [Your-Repo-Name]
+
 Install dependencies:
-
-Bash
-
 pip install -r requirements.txt
+
 Train the model (Optional):
-
-Bash
-
 python train_best_model.py
+
 Launch the Web App:
-
-Bash
-
 streamlit run app.py
+
 📊 Performance Metrics (Summary)
 Metric	Result
 Best Model	Extra Trees Classifier
@@ -88,4 +84,4 @@ Deployment	PaaS (Streamlit Cloud)
 Export to Sheets
 
 📝 Academic Integrity
-This assessment is submitted in partial fulfillment of the requirements for the Cloud Computing (CSIS505) course at Osiri University. All work, including the comparative analysis and application development, is the original work of the author.
+This assessment is submitted in partial fulfilment of the requirements for the Cloud Computing (CSIS505) course at Osiri University. All work, including the comparative analysis and application development, is the original work of the author.
